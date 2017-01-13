@@ -9,9 +9,7 @@ image: /images/2016-01-13-Emoji/emoji_analysis_icon.jpg
 
 One of the most exciting things about learning data science is having a toolkit and framework to answer questions, no matter how practical or absurd. For instance, the week before we started our third project at Metis, an episode of South Park aired that contained this clip:
 
-[![Emoji Analysis](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_analysis_screencap.png)](http://southpark.cc.com/clips/vjp3m9/its-called-emoji-analysis)
-
-In it, Heidi Turner attempts to find an anonymous internet troll by analyzing the level of sophistication in emoji usage. Watching the episode, I thought, "huh... I wonder if you could actually *do* that?" A few days later we received our prompt for project 3, the theme of which was natural language processing (NLP). I took it as a sign from the gods that I should at least try "emoji analysis", as initially ridiculous as it sounds. What I came to learn is not only *can* one use data science to analyze and measure emoji sophistication, but that emoji analysis in general is a fast-growing and increasingly in-demand field of research.  
+[![Emoji Analysis](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_analysis_screencap.png?raw=true)](http://southpark.cc.com/clips/vjp3m9/its-called-emoji-analysis "Emoji Analysis")
 
 So how would one measure emoji sophistication? In my view, there are three general classes of emoji usage:
 
