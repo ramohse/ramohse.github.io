@@ -58,4 +58,4 @@ As a result of the initial project I am now *extremely* interested in further em
 
 Getting here will require a much larger, better-curated body of text than just 1 million raw tweets--an endeavor I am working on at present. Stay tuned! Eventually we might get to this:
 
-[![Emoji Analysis](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_math.png?raw=true)](http://southpark.cc.com/clips/23obdq/trying-to-see-patterns#source=08f60a6f-24a8-4d88-88a3-eb5588494cbc:879fd28e-c96b-4f9d-a437-e05c1bcf80aa&position=159&sort=views "Emoji Math")
+[![Emoji Math](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_math.png?raw=true)](http://southpark.cc.com/clips/23obdq/trying-to-see-patterns#source=08f60a6f-24a8-4d88-88a3-eb5588494cbc:879fd28e-c96b-4f9d-a437-e05c1bcf80aa&position=159&sort=views "Emoji Math")

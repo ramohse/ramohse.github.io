@@ -4,7 +4,7 @@ email: ramohse@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A data journey to the limits of my laptop's processing power.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://ramohse.github.io/" # the base hostname & protocol for your site
 twitter_username: ramohse
 github_username:  ramohse
 
