@@ -9,7 +9,7 @@ image: /images/2016-01-13-Emoji/emoji_analysis_icon.jpg
 
 One of the most exciting things about learning data science is having a toolkit and framework to answer questions, no matter how practical or absurd. For instance, the week before we started our third project at Metis, an episode of South Park aired that contained this clip:
 
-[clip](http://southpark.cc.com/clips/vjp3m9/its-called-emoji-analysis)
+![[Emoji Analysis](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_analysis_screencap.png)](http://southpark.cc.com/clips/vjp3m9/its-called-emoji-analysis)
 
 In it, Heidi Turner attempts to find an anonymous internet troll by analyzing the level of sophistication in emoji usage. Watching the episode, I thought, "huh... I wonder if you could actually *do* that?" A few days later we received our prompt for project 3, the theme of which was natural language processing (NLP). I took it as a sign from the gods that I should at least try "emoji analysis", as initially ridiculous as it sounds. What I came to learn is not only *can* one use data science to analyze and measure emoji sophistication, but that emoji analysis in general is a fast-growing and increasingly in-demand field of research.  
 
@@ -26,7 +26,7 @@ Thus, to be able to measure emoji sophistication, one would have to not only cou
 
 As it happens, someone beat me to a pure emoji word vector model by [only a few weeks](https://arxiv.org/pdf/1609.08359.pdf), but for the purposes of my analysis I was less interested in the emoji and their vector representations by themselves, and more interested in the hybrid usage of emoji and text to convey ideas. As such, I decided to train my own model. To do so would require a massive amount of data, and there are very few readily-available resources for a ton of text with emoji. The best option at present is Twitter, so I set up an API script to track live tweets and save any tweets with emoji in them. In the end I obtained over 1 million tweets to train my word vector model. Initial results were... pretty good! Though more data would always help, and there were some weird missteps given the sloppiness of the data, using a measure of "similarity" on popular emoji indicates the model to some degree understands the nuanced meanings of certain emoji:
 
-##### Words Most Similar to Popular Emoji as Measured by the Model
+### Words Most Similar to Popular Emoji as Measured by the Model
 ---
 ![Tears of Joy](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_similarity_tears_of_joy.png?raw=true)
 ![Heart Eyes](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_similarity_heart_eyes.png?raw=true)
@@ -35,7 +35,7 @@ As it happens, someone beat me to a pure emoji word vector model by [only a few 
 
 Now that I had vectors of both words and emoji, I could use a measure of vector similarity known as [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) to gauge how different the emoji and text of a given tweet are. With this as a foundation, I created a "simple dumb model of emoji sophistication": 
 
-##### A Simple Dumb Model of Emoji Sophistication
+### A Simple Dumb Model of Emoji Sophistication
 ---
 ![Simple Dumb Model](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_model.png?raw=true)
 ---
@@ -54,10 +54,12 @@ Using this simple model I calculated the level of sophistication for each tweet 
 
 Not bad, model! Not bad.
 
-### So... what's next?
+# So... what's next?
 
 As a result of the initial project I am now *extremely* interested in further emoji analysis. As part of the initial survey I made a quick network chart, showing which emoji were most frequently used with other emoji. Analysis of semantic meanings of pairs or triplets of emoji is the next step in evaluating complexity, I feel, as the meanings of certain emoji change when paired with one another--think "😂💀" (I'm dying laughing) vs. my earlier "💀🔪" (I want to murder someone). 
 
 Getting here will require a much larger, better-curated body of text than just 1 million raw tweets--an endeavor I am working on at present. Stay tuned! Eventually we might get to this:
 
-[clip](http://southpark.cc.com/clips/23obdq/trying-to-see-patterns#source=08f60a6f-24a8-4d88-88a3-eb5588494cbc:879fd28e-c96b-4f9d-a437-e05c1bcf80aa&position=159&sort=views) 
+https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_math.png
+
+![[Emoji Math](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_math.png)](http://southpark.cc.com/clips/23obdq/trying-to-see-patterns#source=08f60a6f-24a8-4d88-88a3-eb5588494cbc:879fd28e-c96b-4f9d-a437-e05c1bcf80aa&position=159&sort=views)
