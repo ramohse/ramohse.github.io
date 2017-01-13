@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Emoji Analysis - Can You Do the South Park Analysis?"
+title:  "Emoji Analysis - Can You Replicate Data Science from South Park?"
 date:   2017-01-13 16:52:07
 categories: jekyll update
 tags: emoji word2vec twitter
@@ -29,6 +29,7 @@ As it happens, someone beat me to a pure emoji word vector model by [only a few 
 ![Tears of Joy](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_similarity_tears_of_joy.png?raw=true)
 ![Heart Eyes](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_similarity_heart_eyes.png?raw=true)
 ![Eggplant](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_similarity_eggplant.png?raw=true)
+![Poop](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_similarity_poo.png?raw=true)
 ---
 
 Now that I had vectors of both words and emoji, I could use a measure of vector similarity known as [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) to gauge how different the emoji and text of a given tweet are. With this as a foundation, I created a "simple dumb model of emoji sophistication": 
