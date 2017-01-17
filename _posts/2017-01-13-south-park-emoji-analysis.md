@@ -11,7 +11,7 @@ One of the most exciting things about learning data science is having a toolkit 
 
 [![Emoji Analysis](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-13-Emoji/emoji_analysis_screencap.png?raw=true)](http://southpark.cc.com/clips/vjp3m9/its-called-emoji-analysis "Emoji Analysis")
 
-So how would one measure emoji sophistication? In my view, there are three general classes of emoji usage:
+So how would one... do that? How would one measure emoji sophistication? In my view, there are three general classes of emoji usage:
 
 - **Simple usage** - The emoji and the text convey the same idea, i.e. "LMAO 😂". Here the emoji add little, serving instead to reinforce the meaning of the text.
 
