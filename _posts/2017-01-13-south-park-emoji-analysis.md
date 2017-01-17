@@ -2,7 +2,7 @@
 layout: post
 title:  "Emoji Analysis - Can You Replicate Data Science from South Park?"
 date:   2017-01-13 16:52:07
-categories: jekyll update
+categories: emoji word2vec twitter
 tags: emoji word2vec twitter
 image: /images/2016-01-13-Emoji/emoji_analysis_icon.jpg
 ---
