@@ -39,7 +39,7 @@ Of the 80+ features initially collected to identify areas of high risk, the 11 m
 * Obesity rate
 * Violent crime rate
 
-In the below visualization one can see the teen pregnancy rate by county, and then click through the top features to see the overlap:
+In the below visualization one can see the teen pregnancy rate by county, and then click through the top features to see the overlap:  
 
 
 <meta charset="utf-8">
