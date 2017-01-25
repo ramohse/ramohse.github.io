@@ -13,7 +13,7 @@ image: /images/
 
 **The bad news**--[relative to other developed Western countries](http://www.dailymail.co.uk/news/article-2794234/uk-highest-rate-teen-pregnancies-western-europe-despite-25-fall-decade.html) the U.S. is still exceedingly high, nearly double the rates of the European Union as a whole. Though the map below is as of 2009, the relative disparities between countries persist as of more recent data:
 
-![Global Teen Pregnancy Rates, 2009](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-23-Teen-Pregnancy/global_birth_rates.svg)
+![Global Teen Pregnancy Rates, 2009](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-23-Teen-Pregnancy/global_birth_rates.svg?raw=true)
 
 The social costs of teen pregnancy are [well-publicized](https://www.hhs.gov/ash/oah/adolescent-health-topics/reproductive-health/teen-pregnancy/index.html#): teen mothers are more likely to drop out of school, rely on public assistance, and live below the poverty line, while the children of teen mothers are more likely to have health problems, commit crimes, and do poorly in school relative to peers.
 
@@ -264,7 +264,7 @@ load_teen_preg()
   	    .text('High-Risk Counties')
 })
 
-</script>
+</script>  
 
 
 #### Recommendations Based on the Analysis
