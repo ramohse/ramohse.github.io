@@ -41,7 +41,7 @@ Of the 80+ features initially collected to identify areas of high risk, the 11 m
 
 In the below visualization one can see the teen pregnancy rate by county, and then click through the top features to see the overlap:
 
-<!DOCTYPE html>
+
 <meta charset="utf-8">
 <style>
 
@@ -63,15 +63,15 @@ In the below visualization one can see the teen pregnancy rate by county, and th
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
     <style>
     h1 {font-family: Montserrat;}
-    h1 {font-size: 350%;}
+    h1 {font-size: 175%;}
     </style>
   </head>
 
 
-    <div id="chart_area" class="wrapper">
+  <div id="chart_area" class="wrapper">
       <h1 id="title">Teen Pregnancy Rates by County</h1>
       <p class="space"></p>
-    </div>
+  </div>
 
 <svg width="960" height="600"></svg>
 <script src="//d3js.org/d3.v4.min.js"></script>
