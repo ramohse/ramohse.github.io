@@ -141,8 +141,8 @@ var path = d3.geoPath()
 
 function load_teen_preg(source) {
 	d3.queue()
-    	.defer(d3.json, "{{url_for('static', filename="us.json")}}")
-    	.defer(d3.csv, "{{url_for('static', filename="map.csv")}}", function(d) { rateById.set(+d.id, d); })
+    	.defer(d3.json, "https://github.com/ramohse/ramohse.github.io/blob/master/_data/2016-01-23-Teen-Pregnancy/us.json")
+    	.defer(d3.csv, "https://github.com/ramohse/ramohse.github.io/blob/master/_data/2016-01-23-Teen-Pregnancy/map.csv", function(d) { rateById.set(+d.id, d); })
     .await(function(error, us, my_csv) {
       if (error) throw error;
       
