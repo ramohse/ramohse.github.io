@@ -85,8 +85,7 @@ In the below visualization one can see the teen pregnancy rate by county, and th
     <button id="uninsured">% Uninsured Need Cont.</button>
     <button id="adherents">% Religious Adherents</button>
     <button id="model">Model Predictions</button>
-    <button id="high_risk">High Risk Counties</button>
-    <button id="confed">Confederacy-Union</button>
+    <button id="high_risk">Actual High Risk Counties</button>
     <br>
 </div>
 
@@ -141,8 +140,8 @@ var path = d3.geoPath()
 
 function load_teen_preg(source) {
 	d3.queue()
-    	.defer(d3.json, "https://github.com/ramohse/ramohse.github.io/blob/master/_data/2016-01-23-Teen-Pregnancy/us.json")
-    	.defer(d3.csv, "https://github.com/ramohse/ramohse.github.io/blob/master/_data/2016-01-23-Teen-Pregnancy/map.csv", function(d) { rateById.set(+d.id, d); })
+    	.defer(d3.json, "https://d3js.org/us-10m.v1.json")
+    	.defer(d3.csv, "map.csv", function(d) { rateById.set(+d.id, d); })
     .await(function(error, us, my_csv) {
       if (error) throw error;
       
