@@ -7,11 +7,13 @@ tags: machine_learning public_health d3.js
 image: /images/2016-01-23-Teen-Pregnancy/teen_preg_icon.png
 ---
 
-## Intro: That's... a Lot of Money.
+## Overview
 
 **The good news**--from 2007 to 2014, teen pregnancy rates within the U.S. (defined as live births per 1,000 births to women 15-19 years of age) have fallen from [41.5 to 24.2](https://www.cdc.gov/teenpregnancy/about/), a reduction of 42%.  
 
-**The bad news**--[relative to other developed Western countries](http://www.dailymail.co.uk/news/article-2794234/uk-highest-rate-teen-pregnancies-western-europe-despite-25-fall-decade.html) the U.S. is still exceedingly high, nearly double the rates of the European Union as a whole. Though the map below is as of 2009, the relative disparities between countries persist as of more recent data:
+**The bad news**--[relative to other developed Western countries](http://www.dailymail.co.uk/news/article-2794234/uk-highest-rate-teen-pregnancies-western-europe-despite-25-fall-decade.html) the U.S. is still exceedingly high, nearly double the rates of the European Union as a whole. Though the map below is as of 2009, the relative disparities between countries persist as of more recent data:  
+
+### Global Teen Pregnancy Rates, 2000-2009
 
 ![Global Teen Pregnancy Rates, 2009](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-23-Teen-Pregnancy/global_birth_rates.jpg?raw=true)
 
