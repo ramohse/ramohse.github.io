@@ -23,11 +23,11 @@ Less well-known are the explicit economic costs: over [$9 billion](http://thenat
 
 In that the government only spends ~$200 million a year on prevention ([estimated $179.5 million](http://www.npr.org/sections/itsallpolitics/2015/08/05/429641062/fact-check-how-does-planned-parenthood-spend-that-government-money)<sup>1</sup> on Planned Parenthood contraceptive services, [$1.5 million](https://www.hhs.gov/sites/default/files/budget/fy2016/fy2016-general-departmental-budget-justification.pdf) on the Office of Adolescent Health, and [$17.2 million](https://www.cdc.gov/budget/documents/fy2017/fy-2017-cdc-congressional-justification.pdf) on the CDC's Teen Pregnancy Prevention programme), it is clear that taxpayer money is not being spent as effectively as it could.
 
-Absent a complete realignment of spending priorities, one way to stem the cost is to target areas most at-risk for elevated teen pregnancy rates--working under the assumption that every dollar spent in high-risk areas will have a greater impact overall than those spent in lower-risk areas. To do this, one would have to determine what features are shared by areas with elevated teen pregnancy rates to track and target.
+Absent a complete realignment of spending priorities, one way to stem the cost is to target areas most at-risk for elevated teen pregnancy rates--working under the assumption that every dollar spent in high-risk areas will have a greater impact overall than those spent in lower-risk areas. To do this, one would have to determine what features are shared by areas with elevated teen pregnancy rates to track and target. Rather than use surveys or anecdotal evidence, one could use clustering and classifaction machine learning algorithms to determine which attendant features most closely track teen pregnancy rates, for a more quantitative and robust targeting methodology.
 
 ## Results
 
-Of the 80+ features initially collected to identify areas of high risk, the 11 most indicative are a mix of correlative and causative factors:  
+Of the 80+ features initially collected to identify areas of high risk, the 11 most indicative of a county having elevated teen pregnancy rates are a mix of correlative and causative factors:  
 
 * Child poverty rate  
 * Incidents of Chlamydia per 1,000  
@@ -41,7 +41,7 @@ Of the 80+ features initially collected to identify areas of high risk, the 11 m
 * Obesity rate
 * Violent crime rate
 
-In the below visualization one can see the teen pregnancy rate by county, and then click through the top features to see the overlap:  
+In the below visualization one can see the teen pregnancy rate by county, and then click through key features to see the overlap:  
 
 [![Teen Pregnancy Choropleth](https://github.com/ramohse/ramohse.github.io/blob/master/images/2016-01-23-Teen-Pregnancy/teen_preg_map.png?raw=true)](https://bl.ocks.org/ramohse/raw/2fc980850631f9392267cd60399f6a66/ "Teen Pregnancy Choropleth")
 
@@ -64,7 +64,7 @@ Further research into the efficacy of such an effort would have to be done, but 
 
 * Over 80 features were initially used, collected via .csv downloads and Selenium web-scraping from the [County Health Rankings](http://www.countyhealthrankings.org/rankings/data), the [Guttmacher Institute](https://data.guttmacher.org/regions), the [Association of Statisticians of American Religious Bodies](http://www.rcms2010.org/), county-level [voting data](https://catalog.data.gov/dataset/2008-presidential-general-election-county-results-direct-download), and the [CDC](https://www.cdc.gov/teenpregnancy/). Five columns of random noise were added to "gut-check" feature importance--algorithms were run on all features, with features whose importance (as ranked by the random forest regressor) was below random noise were dropped for the final evaluation.  
 
-* The visualization was made with d3.js. Rather than link the data directly to the chloropleth (which would require generating a new map for each color scheme for each feature, a rather intensive process), the data were bucketed into nine groups (noniles) mapped to RGB codes of color schemes. This way rather than changing the underlying data, each button changes which colors go to each county--an easier way to change color schemes in d3.
+* The visualization was made with d3.js. Rather than link the data directly to the choropleth (which would require generating a new map for each color scheme for each feature), the data were bucketed into nine groups (noniles) mapped to RGB codes of color schemes. This way rather than changing the underlying data, each button changes which colors go to each county--an easier way to change color schemes in d3.
 
 Code for all of the above can be seen on my [github page](https://github.com/ramohse/Metis_Teen_Pregnancy).
 
