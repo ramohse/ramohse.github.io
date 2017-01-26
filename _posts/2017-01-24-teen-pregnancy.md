@@ -55,10 +55,10 @@ In the below visualization one can see the teen pregnancy rate by county, and th
 }
 </style>
 
-    <div id="chart_area" class="wrapper">
-      <h1 id="title" style="font-family:arial;">Teen Pregnancy Rates by County</h1>
-      <p class="space"></p>
-    </div>
+<div id="chart_area" class="wrapper">
+    <h1 id="title" style="font-family:arial;">Teen Pregnancy Rates by County</h1>
+    <p class="space"></p>
+</div>
 
 <svg width="960" height="600"></svg>
 <script src="//d3js.org/d3.v4.min.js"></script>
