@@ -42,7 +42,7 @@ Of the 80+ features initially collected to identify areas of high risk, the 11 m
 In the below visualization one can see the teen pregnancy rate by county, and then click through the top features to see the overlap:  
 
 
-<iframe src="https://rawgit.com/ramohse/2fc980850631f9392267cd60399f6a66/raw/428e7e74ba571015e9222cc5b4c0544476225729/index.html" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="https://rawgit.com/ramohse/2fc980850631f9392267cd60399f6a66/raw/428e7e74ba571015e9222cc5b4c0544476225729/index.html" marginwidth="0" marginheight="0" scrolling="no" width="700" height="500"></iframe>
 
 
 
