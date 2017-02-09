@@ -21,7 +21,7 @@ The social costs of teen pregnancy are [well-publicized](https://www.hhs.gov/ash
 
 Less well-known are the explicit economic costs: over [$9 billion](http://thenationalcampaign.org/sites/default/files/resource-primary-download/counting-it-up-key-data-2013-update.pdf) in aggregate costs to U.S. taxpayers annually (as of 2010, costs are healthcare, welfare, and incarceration), or approximately $1,600 per child per year from birth until age 15.
 
-In that the government only spends ~$200 million a year on prevention ([estimated $179.5 million](http://www.npr.org/sections/itsallpolitics/2015/08/05/429641062/fact-check-how-does-planned-parenthood-spend-that-government-money)<sup>1</sup> on Planned Parenthood contraceptive services, [$1.5 million](https://www.hhs.gov/sites/default/files/budget/fy2016/fy2016-general-departmental-budget-justification.pdf) on the Office of Adolescent Health, and [$17.2 million](https://www.cdc.gov/budget/documents/fy2017/fy-2017-cdc-congressional-justification.pdf) on the CDC's Teen Pregnancy Prevention programme), it is clear that taxpayer money is not being spent as effectively as it could.
+In that the government only spends ~$200 million a year on prevention ([estimated $179.5 million](http://www.npr.org/sections/itsallpolitics/2015/08/05/429641062/fact-check-how-does-planned-parenthood-spend-that-government-money)[^1] on Planned Parenthood contraceptive services, [$1.5 million](https://www.hhs.gov/sites/default/files/budget/fy2016/fy2016-general-departmental-budget-justification.pdf) on the Office of Adolescent Health, and [$17.2 million](https://www.cdc.gov/budget/documents/fy2017/fy-2017-cdc-congressional-justification.pdf) on the CDC's Teen Pregnancy Prevention programme), it is clear that taxpayer money is not being spent as effectively as it could.
 
 Absent a complete realignment of spending priorities, one way to stem the cost is to target areas most at-risk for elevated teen pregnancy rates--working under the assumption that every dollar spent in high-risk areas will have a greater impact overall than those spent in lower-risk areas. To do this, one would have to determine what features are shared by areas with elevated teen pregnancy rates to track and target. Rather than use surveys or anecdotal evidence, one could use clustering and classification machine learning algorithms to determine which features most closely track teen pregnancy rates, for a more quantitative and robust targeting methodology.
 
@@ -31,7 +31,7 @@ Of the 80+ features initially collected to identify areas of high risk, the 11 m
 
 * Child poverty rate  
 * Incidents of Chlamydia per 1,000  
-* Share of population who are religious adherents<sup>2</sup>  
+* Share of population who are religious adherents[^2]  
 * High school graduation rate
 * Share of women without health insurance
 * Share of households with a single parent
@@ -56,7 +56,7 @@ Further research into the efficacy of such an effort would have to be done, but 
 
 ## Methodology & Data
 
-* The above analysis was done using a combination of clustering algorthms and classification algorithms<sup>3</sup>, with simple logistic regression performing the best in terms of both accuracy (83%) and f1 (72%) scores.
+* The above analysis was done using a combination of clustering algorthms and classification algorithms[^3], with simple logistic regression performing the best in terms of both accuracy (83%) and f1 (72%) scores.
 
 * All data used was as of 2010, the last national census and religious census, with voting data by county as of the 2008 presidential election.
 
@@ -72,6 +72,6 @@ Code for all of the above can be seen on my [github page](https://github.com/ram
 
 #### Notes
 
-<sup>1</sup>$528 million government allocation to Planned Parenthood times the ~34% of Planned Parenthood budget spent on contraceptive services  
-<sup>2</sup> Adherents [defined](http://www.rcms2010.org/images/2010_US_Religion_Census_Appendix_A.pdf) as all persons (adults and children) participating in the life of a parish, regular or occasional attendees  
-<sup>3</sup> Algorithms used: logistic regression, random forest, gradient-boosted trees, k-nearest neighbors, decision trees, and Gaussian naive Bayes
+[^1]: $528 million government allocation to Planned Parenthood times the ~34% of Planned Parenthood budget spent on contraceptive services  
+[^2]: Adherents [defined](http://www.rcms2010.org/images/2010_US_Religion_Census_Appendix_A.pdf) as all persons (adults and children) participating in the life of a parish, regular or occasional attendees  
+[^3]: Algorithms used: logistic regression, random forest, gradient-boosted trees, k-nearest neighbors, decision trees, and Gaussian naive Bayes
