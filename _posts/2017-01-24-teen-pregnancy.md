@@ -35,7 +35,7 @@ Of the 80+ features initially collected to identify areas of high risk, the 11 m
 * High school graduation rate
 * Share of women without health insurance
 * Share of households with a single parent
-* Numer of religious congregations per 10,000 people
+* Number of religious congregations per 10,000 people
 * Binge drinking rate
 * Smoking rate
 * Obesity rate
